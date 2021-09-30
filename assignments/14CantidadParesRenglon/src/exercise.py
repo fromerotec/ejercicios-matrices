@@ -1,33 +1,8 @@
-def matParesCol (matriz):
-    
-    vectorPares= []
-    for ren  in range(len(matriz)):
-        contPares = 0
-        for col in range(len(matriz[0])):
-            if (matriz[ren][col] % 2 == 0):
-                contPares += 1
-                
-        vectorPares.append(contPares)        
-       
-    return vectorPares
-
-def leer (ren, col):
-    matriz = []
-    for x in range (ren):
-        lista = []
-        for y in range(col):
-            valor = int(input())
-            lista.append(valor)
-        matriz.append(lista)
-    return matriz
+#escribe tus funciones abajo de esta línea
 
 def main():
-    ren = int(input())
-    col = int(input())
-
-    matriz = leer (ren, col)
-    vectorPares = matParesCol(matriz)
-    print (vectorPares)
+    #escribe tu código pricipal abajo de esta línea
+    pass
 
 
 if __name__=='__main__':

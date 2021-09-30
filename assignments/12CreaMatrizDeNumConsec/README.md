@@ -14,13 +14,13 @@ if __name__ == '__main__':
 
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
 
-Escribe un programa que cree una matriz de n filas y m columnas y la llene por números consecutivos por renglón comenzando con el valor 1.
+Escribe un programa que cree una matriz de N filas y M columnas y la llene por números consecutivos por renglón comenzando con el valor 1.
 
 ## Entradas
-Dos números enteros mayores o iguales a 2 que representarán el numero de renglones n (número de listas) y el número de columnas m (numero de elementos en cada lista), en ese orden. Si alguno de los números recibidos no es mayor o igual a 2, se despliega el mensaje "Error"
+Dos números enteros mayores o iguales a 2 que representarán el número de renglones N (número de listas) y el número de columnas M (número de elementos en cada lista), en ese orden. Si alguno de los números recibidos no es mayor o igual a 2, se despliega el mensaje "Error".
 
 ## Salida
-La matriz de nxm llena con números consecutivos.
+La matriz de N por M llena con números consecutivos.
 
 ## Ejemplos de ejecución del programa
 ### Entrada
